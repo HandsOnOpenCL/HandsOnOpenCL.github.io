@@ -41,61 +41,47 @@
 
 <ol>
 <li>
-<p>Introduction to Heterogeneous Parallel Computing</p>
+<p><strong>Introduction to Heterogeneous Parallel Computing</strong></p>
 
-<ul>
-<li>Setting up your OpenCL environment (AMD, Intel, NVIDIA)</li>
-</ul>
+<p>Setting up your OpenCL environment (AMD, Intel, NVIDIA)</p>
 </li>
-<li><p>An overview of OpenCL</p></li>
+<li><p><strong>An overview of OpenCL</strong></p></li>
 <li>
-<p>Important OpenCL concepts</p>
+<p><strong>Important OpenCL concepts</strong></p>
 
-<ul>
-<li>Platforms, contexts, programs, queues, buffers and kernels</li>
-<li>NDRanges, Work‐Groups, Work-Items<br>
-</li>
-</ul>
+<p>Platforms, contexts, programs, queues, buffers and kernels</p>
+
+<p>NDRanges, Work‐Groups, Work-Items </p>
 </li>
 <li>
-<p>Overview of OpenCL APIs</p>
+<p><strong>Overview of OpenCL APIs</strong></p>
 
-<ul>
-<li>C, C++ and Python </li>
-</ul>
+<p>C, C++ and Python   </p>
 </li>
-<li><p>Introducing OpenCL kernel programming</p></li>
-<li><p>Understanding the OpenCL memory hierarchy</p></li>
+<li><p><strong>Introducing OpenCL kernel programming</strong></p></li>
+<li><p><strong>Understanding the OpenCL memory hierarchy</strong></p></li>
 <li>
-<p>Synchronization in OpenCL</p>
+<p><strong>Synchronization in OpenCL</strong></p>
 
-<ul>
-<li>Events and barriers</li>
-</ul>
+<p>Events and barriers</p>
 </li>
 <li>
-<p>Heterogeneous computing with OpenCL</p>
+<p><strong>Heterogeneous computing with OpenCL</strong></p>
 
-<ul>
-<li>Using CPUs and GPUs simultaneously, multiple platforms and devices</li>
-</ul>
+<p>Using CPUs and GPUs simultaneously, multiple platforms and devices</p>
 </li>
 <li>
-<p>Optimizing OpenCL performance</p>
+<p><strong>Optimizing OpenCL performance</strong></p>
 
-<ul>
-<li>Profiling </li>
-</ul>
+<p>Profiling   </p>
 </li>
 <li>
-<p>Enabling portable performance via OpenCL</p>
+<p><strong>Enabling portable performance via OpenCL</strong></p>
 
-<ul>
-<li>Autotuning</li>
-</ul>
+<p>Autotuning</p>
 </li>
-<li><p>Debugging OpenCL</p></li>
-<li><p>Porting CUDA to OpenCL</p></li>
+<li><p><strong>Debugging OpenCL</strong></p></li>
+<li><p><strong>Porting CUDA to OpenCL</strong></p></li>
 </ol><h3>
 <a name="examples" class="anchor" href="#examples"><span class="octicon octicon-link"></span></a>Examples</h3>
 
@@ -104,12 +90,66 @@
 <p><code>git clone git://github.com/HandsOnOpenCL/Exercises-Solutions.git</code></p>
 
 <ol>
-<li>Example 1</li>
-<li>Example 2</li>
+<li>
+<p><strong>Platform Information</strong></p>
+
+<p>Run a simple OpenCL program to give you some key facts about the devices available in your system.</p>
+</li>
+<li>
+<p><strong>VADD - The OpenCL "Hello World"</strong></p>
+
+<p>Start by looking at the C API for this program which introduces the OpenCL computational model.</p>
+</li>
+<li><p><strong>VADD - Now in C++ and Python</strong></p></li>
+<li>
+<p><strong>Chaining vector add kernels</strong></p>
+
+<p>Extend VADD to compute C=A+B; D=C+E; F=D+G by running the kernel multiple times.</p>
+</li>
+<li>
+<p><strong>Extend VADD for D = A + B + C</strong></p>
+
+<p>Extend the VADD kernel to compute a different sum.</p>
+</li>
+<li>
+<p><strong>Matrix Multiplication</strong></p>
+
+<p>Write your first OpenCL kernel from scratch.</p>
+</li>
+<li>
+<p><strong>Optimize memory movement costs for Matrix Multiplication</strong></p>
+
+<p>Use local and private memory to minimize memory costs.</p>
+</li>
+<li>
+<p><strong>The Pi program</strong></p>
+
+<p>Estimate Pi by integration.</p>
+</li>
+<li>
+<p><strong>Heterogeneous Computing</strong></p>
+
+<p>Run your kernels on many devices.</p>
+</li>
+<li>
+<p><strong>Profiling OpenCL programs</strong></p>
+
+<p>Experiment making things run faster.</p>
+</li>
+<li>
+<p><strong>Optimize matrix multiplication</strong></p>
+
+<p>Look at portable performance (combining 9. and 10.)</p>
+</li>
+<li>
+<p><strong>Porting CUDA to OpenCL</strong></p>
+
+<p>Convert a simple CUDA application to OpenCL (program TBA).</p>
+</li>
 </ol><h3>
 <a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
 
-<p>Simon McIntosh-Smith</p>
+<p>Simon McIntosh-Smith, University of Bristol</p>
 
 <p>Tom Deakin (<a href="https://github.com/tomdeakin" class="user-mention">@tomdeakin</a>)</p>
 
