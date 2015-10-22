@@ -1,52 +1,41 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en-us">
   <head>
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="Hands On OpenCL : An open source two-day lecture course for teaching and learning OpenCL" />
-
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
-
-    <title>Hands On OpenCL</title>
+    <meta charset="UTF-8">
+    <title>Hands On OpenCL by HandsOnOpenCL</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
   </head>
-
   <body>
+    <section class="page-header">
+      <h1 class="project-name">Hands On OpenCL</h1>
+      <h2 class="project-tagline">An open source two-day lecture course for teaching and learning OpenCL</h2>
+    </section>
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/HandsOnOpenCL">View on GitHub</a>
+    <section class="main-content">
+      <h3>
+<a id="welcome" class="anchor" href="#welcome" aria-hidden="true"><span class="octicon octicon-link"></span></a>Welcome</h3>
 
-          <h1 id="project_title">Hands On OpenCL</h1>
-          <h2 id="project_tagline">An open source two-day lecture course for teaching and learning OpenCL</h2>
-
-        </header>
-    </div>
-
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h3>
-<a name="welcome" class="anchor" href="#welcome"><span class="octicon octicon-link"></span></a>Welcome</h3>
-
-<p>HandsOnOpenCL is a collection of lecture material for OpenCL tutorials. It can be used for short introductions, or for detailed, practical-based tutorials that require 2-3 days to deliver. Provided are slides for around twelve lectures, plus some appendices, complete with a comprehensive set of Examples and Solutions in C, C++ and Python. The lecture series finishes with information on how to port CUDA applications to OpenCL.</p>
+<p>Hands On OpenCL is a two-day lecture course introducing OpenCL, the API for writing heterogeneous applications. Provided are slides for around twelve lectures, plus some appendices, complete with Examples and Solutions in C, C++ and Python. The lecture series finishes with information on porting CUDA applications to OpenCL.</p>
 
 <p>This set of freely available OpenCL <a href="https://github.com/HandsOnOpenCL/Exercises-Solutions">exercises and solutions</a>, together with <a href="https://github.com/HandsOnOpenCL/Lecture-Slides/releases">slides</a> have been created by Simon McIntosh-Smith and Tom Deakin from the University of Bristol in the UK, with financial support from the Khronos Initiative for Training and Education (<a href="http://kite.khronos.org/en/opencl">KITE</a>) to promote the use of open standards.</p>
 
-<p><a href="http://www.cs.bris.ac.uk/home/simonm/">Simon McIntosh-Smith</a> is one of the foremost OpenCL trainers in the world, having taught the subject since 2009. He has run many OpenCL training courses at conferences such as SuperComputing and HiPEAC, and has provided OpenCL training for the UK's national supercomputing service and for the Barcelona Supercomputing Center. With OpenCL training experience ranging from half day on-site OpenCL introductions within companies, to three-day intensive hands-on advanced OpenCL tutorials for undergraduates, Simon can provide customized OpenCL training to meet your needs. Get in touch if you'd like to know more:</p>
+<p><a href="http://www.cs.bris.ac.uk/home/simonm/">Simon McIntosh-Smith</a> is one of the foremost OpenCL trainers in the world, having taught the subject since 2009. He has run many OpenCL training courses at conferences such as SuperComputing and HiPEAC, and has provided OpenCL training for the UK's national supercomputing service and for the Barcelona Supercomputing Center. With OpenCL training experience ranging from half day on-site introductions within companies, to two-day intensive hands-on workshops for undergraduates, Simon can provide customized OpenCL training to meet your needs. Get in touch if you'd like to know more:</p>
 
 <p>For more about the authors, please visit <a href="http://www.cs.bris.ac.uk/home/simonm/">Simon's home page</a> or <a href="http://www.tomdeakin.com">Tom's home page</a>.</p>
 
 <p>These lectures, and their examples, and released under the "attribution CC BY" creative commons license. In other words, you can use these in any way you see fit, including commercially, but please retain an attribution for the original authors, Simon McIntosh-Smith and Tom Deakin.</p>
 
 <h3>
-<a name="get-the-slides-and-code" class="anchor" href="#get-the-slides-and-code"><span class="octicon octicon-link"></span></a>Get the slides and code</h3>
+<a id="get-the-slides-and-code" class="anchor" href="#get-the-slides-and-code" aria-hidden="true"><span class="octicon octicon-link"></span></a>Get the slides and code</h3>
 
 <p>The slides are available under <a href="https://github.com/HandsOnOpenCL/Lecture-Slides/releases">Releases</a>. The code is available in the <a href="https://github.com/HandsOnOpenCL/Exercises-Solutions">Exercises and Solutions repository</a>.</p>
 
 <h3>
-<a name="course-structure" class="anchor" href="#course-structure"><span class="octicon octicon-link"></span></a>Course Structure</h3>
+<a id="course-structure" class="anchor" href="#course-structure" aria-hidden="true"><span class="octicon octicon-link"></span></a>Course Structure</h3>
 
 <ol>
 <li>
@@ -96,8 +85,10 @@ Information on NVVP and CodeXL</p>
 <p>Using GDB</p>
 </li>
 <li><p><strong>Porting CUDA to OpenCL</strong></p></li>
-</ol><h3>
-<a name="examples" class="anchor" href="#examples"><span class="octicon octicon-link"></span></a>Examples</h3>
+</ol>
+
+<h3>
+<a id="examples" class="anchor" href="#examples" aria-hidden="true"><span class="octicon octicon-link"></span></a>Examples</h3>
 
 <p>Download the examples by checking out the git repository with the command:</p>
 
@@ -165,31 +156,30 @@ Information on NVVP and CodeXL</p>
 
 <p>Convert a simple CUDA application to OpenCL (program TBA).</p>
 </li>
-</ol><h3>
-<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
+</ol>
+
+<h3>
+<a id="authors-and-contributors" class="anchor" href="#authors-and-contributors" aria-hidden="true"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
 
 <p>Simon McIntosh-Smith, University of Bristol</p>
 
 <p>Tom Deakin (<a href="https://github.com/tomdeakin" class="user-mention">@tomdeakin</a>)</p>
 
 <h3>
-<a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
+<a id="support-or-contact" class="anchor" href="#support-or-contact" aria-hidden="true"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
 
 <p>Found a bug or with to suggest an update to the material?
 Please submit a new Issue in the relevant repository (<a href="https://github.com/HandsOnOpenCL/Exercises-Solutions/issues">Exercises</a> or <a href="https://github.com/HandsOnOpenCL/Lecture-Slides/issues">Slides</a>)</p>
 
 <p>Fixed a bug yourself? Please submit a <a href="https://help.github.com/articles/using-pull-requests">pull request</a>. Thanks.</p>
-      </section>
-    </div>
 
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      <footer class="site-footer">
+
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
       </footer>
-    </div>
 
-    
+    </section>
 
+  
   </body>
 </html>
